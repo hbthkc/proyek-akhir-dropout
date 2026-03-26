@@ -25,7 +25,7 @@ with st.form("prediction_form"):
         sem1_approved = st.number_input("Curricular units 1st sem (approved)", value=0)
         sem2_approved = st.number_input("Curricular units 2nd sem (approved)", value=0)
     
-    submit = st.form_submit.button("Prediksi")
+    submit = st.form_submit_button("Prediksi")
 
 if submit:
 
